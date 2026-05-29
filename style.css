@@ -1,0 +1,66 @@
+* {
+#loveBox p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+#loveBox h3 {
+  margin-top: 25px;
+  color: #ffe600;
+  font-size: 2rem;
+}
+
+.meter-box {
+  margin-top: 30px;
+}
+
+.meter {
+  width: 100%;
+  height: 30px;
+  background: #333;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #ff0055, #ffea00);
+  animation: move 2s infinite;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff0055;
+  }
+  to {
+    text-shadow: 0 0 25px #ffea00;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
