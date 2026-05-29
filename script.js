@@ -4,6 +4,6 @@ function showLove() {
   box.style.display = "block";
 
   setTimeout(() => {
-    alert("Congratulations 🎉 You have successfully discovered that Dikshit loves Anshi TOO MUCH ❤️😂");
+    alert("Congratulations 🎉 You have successfully discovered that Akhil loves Anshi TOO MUCH ❤️😂");
   }, 500);
 }
